@@ -51,7 +51,7 @@ const CallToAction = () => {
                 De: R$ 197,00
               </div>
               <div className="text-4xl font-bold text-warrior-orange mb-4">
-                Por apenas: R$ 97,00
+                Por apenas: R$ 98,50
               </div>
               <div className="text-warrior-white text-sm">
                 Use o cupom: <span className="bg-warrior-orange px-3 py-1 rounded-lg font-bold">ESPARTA</span>
