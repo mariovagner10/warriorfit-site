@@ -37,6 +37,7 @@ const WarriorHero = () => {
             variant="warrior" 
             size="lg" 
             className="text-xl px-12 py-6 h-auto"
+            onClick={() => window.open('https://buy.stripe.com/3cI3cv4zaaKO4VY6PHffy01', '_blank')}
           >
             INICIAR JORNADA WARRIOR
           </Button>
@@ -45,6 +46,12 @@ const WarriorHero = () => {
             variant="warrior-outline" 
             size="lg" 
             className="text-xl px-12 py-6 h-auto"
+            onClick={() => {
+              const importanceSection = document.querySelector('#importance-section');
+              if (importanceSection) {
+                importanceSection.scrollIntoView({ behavior: 'smooth' });
+              }
+            }}
           >
             SAIBA MAIS
           </Button>
