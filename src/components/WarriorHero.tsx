@@ -13,9 +13,9 @@ const WarriorHero = () => {
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="mb-8">
           <img 
-            src="/lovable-uploads/fec5bc7a-ee14-4eed-adc2-0154ca7886d6.png" 
+            src="/warriorfit_logo.png"
             alt="Warriorfit Brasil Logo" 
-            className="w-32 h-32 mx-auto mb-6 filter brightness-0 invert"
+            className="w-32 h-32 mx-auto mb-6"
           />
         </div>
         
