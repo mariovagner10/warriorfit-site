@@ -65,6 +65,7 @@ const CallToAction = () => {
             variant="warrior" 
             size="lg" 
             className="text-2xl px-16 py-8 h-auto shadow-glow hover:shadow-2xl transform hover:scale-110 transition-all duration-300"
+            onClick={() => window.open('https://buy.stripe.com/3cI3cv4zaaKO4VY6PHffy01', '_blank')}
           >
             🔥 GARANTIR MINHA VAGA AGORA
           </Button>
