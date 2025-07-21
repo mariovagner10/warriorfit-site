@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { Clock, Star, Shield } from "lucide-react";
+import { Clock, Star, Shield} from "lucide-react";
+import WhatsappIcon from "@/components/icons/WhatsappIcon";
 
 const CallToAction = () => {
   return (
@@ -62,18 +63,28 @@ const CallToAction = () => {
         
         <div className="text-center">
           <Button 
-  variant="warrior" 
-  size="lg" 
-  className="text-2xl w-full sm:w-auto px-6 sm:px-10 lg:px-12 py-6 h-auto shadow-glow hover:shadow-2xl transform hover:scale-105 transition-all duration-300 text-center break-words leading-tight whitespace-normal"
-  onClick={() => window.open('https://buy.stripe.com/3cI3cv4zaaKO4VY6PHffy01', '_blank')}
->
-  🔥 GARANTIR MINHA VAGA AGORA
-</Button>
+            variant="warrior" 
+            size="lg" 
+            className="text-2xl w-full sm:w-auto px-6 sm:px-10 lg:px-12 py-6 h-auto shadow-glow hover:shadow-2xl transform hover:scale-105 transition-all duration-300 text-center break-words leading-tight whitespace-normal"
+            onClick={() => window.open('https://buy.stripe.com/3cI3cv4zaaKO4VY6PHffy01', '_blank')}
+          >
+            🔥 GARANTIR MINHA VAGA AGORA
+          </Button>
 
-          
           <p className="text-warrior-white/70 mt-6 max-w-lg mx-auto">
             ⏰ Oferta válida por tempo limitado. Apenas 50 vagas disponíveis esta semana!
           </p>
+
+          {/* Novo bloco WhatsApp */}
+         <a
+  href="https://wa.me/555199246396"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mt-8 inline-flex items-center justify-center gap-3 text-warrior-orange font-semibold text-lg hover:underline"
+>
+  <WhatsappIcon />
+  <span>Tem dúvidas? Fale com a Warriorfit pelo WhatsApp</span>
+</a>
         </div>
         
         <div className="mt-16 grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
