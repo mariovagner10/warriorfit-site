@@ -27,7 +27,7 @@ const WarriorHero = () => {
         </h1>
 
         <h2 className="text-xl sm:text-2xl md:text-3xl text-warrior-orange font-semibold mb-6">
-          BRASIL3
+          BRASIL
         </h2>
 
         <p className="text-base sm:text-lg md:text-xl text-warrior-white/90 max-w-3xl mx-auto leading-relaxed mb-8 px-2">
