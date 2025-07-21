@@ -28,9 +28,10 @@ const ImportanceSection = () => {
     <section id="importance-section" className="py-24 bg-warrior-white">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-5xl md:text-6xl font-bold text-warrior-black mb-6">
-            POR QUE TREINO <span className="text-warrior-orange">PERSONALIZADO</span>?
-          </h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-warrior-black mb-6">
+  POR QUE TREINO <span className="text-warrior-orange">PERSONALIZADO</span>?
+</h2>
+
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Não existe guerreiro igual a outro. Seu corpo, seus objetivos e sua jornada são únicos. 
             Por isso, seu treino também deve ser.

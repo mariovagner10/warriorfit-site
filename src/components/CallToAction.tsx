@@ -62,13 +62,14 @@ const CallToAction = () => {
         
         <div className="text-center">
           <Button 
-            variant="warrior" 
-            size="lg" 
-            className="text-2xl px-16 py-8 h-auto shadow-glow hover:shadow-2xl transform hover:scale-110 transition-all duration-300"
-            onClick={() => window.open('https://buy.stripe.com/3cI3cv4zaaKO4VY6PHffy01', '_blank')}
-          >
-            🔥 GARANTIR MINHA VAGA AGORA
-          </Button>
+  variant="warrior" 
+  size="lg" 
+  className="text-2xl w-full sm:w-auto px-6 sm:px-10 lg:px-12 py-6 h-auto shadow-glow hover:shadow-2xl transform hover:scale-105 transition-all duration-300 text-center break-words leading-tight whitespace-normal"
+  onClick={() => window.open('https://buy.stripe.com/3cI3cv4zaaKO4VY6PHffy01', '_blank')}
+>
+  🔥 GARANTIR MINHA VAGA AGORA
+</Button>
+
           
           <p className="text-warrior-white/70 mt-6 max-w-lg mx-auto">
             ⏰ Oferta válida por tempo limitado. Apenas 50 vagas disponíveis esta semana!
